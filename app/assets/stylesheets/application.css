@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+
+body{
+	background-image: url('https://img00.deviantart.net/59f3/i/2008/116/1/9/lorem_ipsum_wallpaper_by_andoflu.jpg');
+}
+nav{
+	padding: 30px;
+	background: #D53434;
+}
+
+nav.id a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.center{
+	text-align: center;
+}
+
+
+.img-li{
+	width: 40%;
+}
