@@ -9,6 +9,9 @@
   </head>
 
   <body>
+  	<nav>
+  		<%= link_to "abouts us", pages_about_path %> | <%= link_to "contact us", pages_contact_path %> | <%= link_to "friend's page", pages_index_path %> | <%= link_to "Main website", root_path %> | <%= link_to "Why we like lorem", landings_x_path %> | <%= link_to "Why we use ipsum in our products", landings_y_path %> | <%= link_to "Our students", students_path %>
+  	</nav>
     <%= yield %>
   </body>
 </html>
